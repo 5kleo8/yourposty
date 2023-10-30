@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center sm:flex-row justify-between w-8/12 mb-6">
+<div class="flex flex-col items-center sm:flex-row justify-between">
     @if($showPrev)
         <button
             wire:click="prevStep"
