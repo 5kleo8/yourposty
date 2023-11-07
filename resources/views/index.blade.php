@@ -8,13 +8,15 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=Fira+Code:wght@300&family=Gabarito&display=swap"  rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=Fira+Code:wght@300&family=Gabarito&display=swap"
+        rel="stylesheet">
     @vite('resources/js/app.js')
     @livewireStyles
 </head>
 <body>
 <livewire:navbar/>
-<div  class="flex flex-col m-10 gap-4 items-center justify-center">
+<div class="flex flex-col m-10 gap-4 items-center justify-center">
     <livewire:stepper-component/>
 </div>
 <!-- otros scripts -->
