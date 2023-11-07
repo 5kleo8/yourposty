@@ -33,7 +33,7 @@
             </div>
         @endif
     </div>
-    <div class="step-counter  flex items-center justify-center  mt-4 md:mt-24 space-x-4">
+    <div class="step-counter  flex items-center justify-center  px-40 my-8 md:mt-24 space-x-4">
         @for($i = 0; $i < 5; $i++)
             <div class="step
             {{ $i < $currentStep ? 'bg-blue-500' : 'bg-white' }}

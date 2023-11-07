@@ -1,9 +1,9 @@
-<div class="px-4">
-    <h2 class=" mb-2">Indica el nombre de tu empresa y un slogan</h2>
-    <div class="flex flex-col sm:flex-row items-start sm:mt-12">
-        <div class="w-full mb-3 sm:mr-6">
+<div class="px-16">
+    <h2 class="mx-auto">Indica el nombre de tu empresa y un slogan</h2>
+    <div class="flex flex-col sm:flex-row items-start">
+        <div class="w-full mb-3">
             <form wire:submit.prevent="formValidated">
-                <div class="mb-3">
+                <div class="mb-2">
                     <livewire:text-input
                         :label="'Nombre*'"
                         :placeholder="'Ingrese el nombre de su empresa'"
@@ -13,7 +13,7 @@
                         model="name"
                     />
                 </div>
-                <div class="mb-3">
+                <div class="mb-2">
                     <livewire:text-input
                         label="Slogan*"
                         :placeholder="'Su Slogan'"
@@ -24,7 +24,7 @@
                     />
                 </div>
             </form>
-            <div class="sm:hidden w-1/2 mx-auto">
+            <div class="sm:hidden h-40 w-40 mx-auto">
                 <img src="{{ asset('img/onboarding.svg') }}">
             </div>
 

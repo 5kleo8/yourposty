@@ -20,32 +20,5 @@
 <!-- otros scripts -->
 @livewireScriptConfig
 </body>
-<style>
-    body {
-        font-family: 'Gabarito', sans-serif;
-    }
-
-    @media (max-width: 768px) {
-      body{
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 900;
-          line-height: 26px;
-      }
-        p{
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 12px;
-        }
-        label{
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 11px;
-        }
-    }
-</style>
-
 </html>
 

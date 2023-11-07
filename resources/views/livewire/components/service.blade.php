@@ -1,9 +1,9 @@
-<div class="px-4">
-    <h2 class="md:text-2xl text-1xl mb-2">Indica 3 servicios que ofrece tu empresa</h2>
+<div class="px-16">
+    <h2 class="mb-2">Indica 3 servicios que ofrece tu empresa</h2>
     <div class="flex flex-col sm:flex-row items-start sm:mt-12">
-        <div class="w-full mb-3 sm:mr-3">
+        <div class="w-full">
             <form wire:submit.prevent="formValidated">
-                <div class="mb-3">
+                <div class="mt-2.5">
                     <livewire:text-input
                         :label="'Primer servicio*'"
                         :placeholder="'Escribe un servicio de tu empresa'"
@@ -13,7 +13,7 @@
                         model="service1"
                     />
                 </div>
-                <div class="mb-3">
+                <div class="mt-2.5">
                     <livewire:text-input
                         :label="'Segundo servicio*'"
                         :placeholder="'Escribe un servicio de tu empresa'"
@@ -23,7 +23,7 @@
                         model="service2"
                     />
                 </div>
-                <div class="mb-3">
+                <div class="mt-2.5">
                     <livewire:text-input
                         :label="'Tercer servicio*'"
                         :placeholder="'Escribe un servicio de tu empresa'"
@@ -34,7 +34,7 @@
                     />
                 </div>
             </form>
-            <div class="sm:hidden w-1/2 mx-auto">
+            <div class="sm:hidden w-28 h-32 mx-auto">
                 <img src="{{ asset('img/service.svg') }}">
             </div>
         </div>
