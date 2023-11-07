@@ -1,6 +1,6 @@
 <div class="px-6">
     <div class="text-center mb-6">
-        <h2 class="font-bold text-2xl sm:mt-6">¡Customer, vamos a crear tu cuenta!</h2>
+        <h2 class="sm:mt-6">¡Customer, vamos a crear tu cuenta!</h2>
         <p class="text-lg sm:mt-6">Elige tu perfil para empezar a utilizar la plataforma.</p>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8">

@@ -3,49 +3,49 @@
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/Google.svg') }}" class="mb-4">
-            <p class="text-center font-normal">
+            <p class="text-center">
                 Google
             </p>
         </div>
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/Facebook.svg') }}" class="mb-4 mx-auto">
-            <p class="text-center font-normal">
+            <p class="text-center">
                 Facebook
             </p>
         </div>
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/Twitter.svg') }}" class="mb-4 mx-auto">
-            <p class="text-center font-normal">
+            <p class="text-center">
                 Twitter/X
             </p>
         </div>
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/Instagram.svg') }}" class="mb-4 mx-auto">
-            <p class="text-center font-normal">
+            <p class="text-center">
                 Instagram
             </p>
         </div>
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/LikedIn.svg') }}" class="mb-4 mx-auto">
-            <p class="text-center font-normal">
+            <p class="text-center">
                 LinkedIn
             </p>
         </div>
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/Email.svg') }}" class="mb-4 mx-auto">
-            <p class="text-center font-normal">
+            <p class="text-center">
                 Email
             </p>
         </div>
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/Friend.svg') }}" class="mb-4 mx-auto">
-            <p class="text-center font-normal">
+            <p class="text-center whitespace-no-wrap">
                 Por un amigo
             </p>
         </div>
         <div class="px-12 py-2 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">
             <img src="{{ asset('img/Others.svg') }}" class="mb-4 mx-auto">
-            <p class="text-center font-normal">
+            <p class="text-center whitespace-no-wrap">
                 Por otro canal
             </p>
         </div>

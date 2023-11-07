@@ -1,5 +1,5 @@
 <div class="px-4">
-    <h2 class="md:text-2xl text-1xl mb-2">Indica el nombre de tu empresa y un slogan</h2>
+    <h2 class=" mb-2">Indica el nombre de tu empresa y un slogan</h2>
     <div class="flex flex-col sm:flex-row items-start sm:mt-12">
         <div class="w-full mb-3 sm:mr-6">
             <form wire:submit.prevent="formValidated">

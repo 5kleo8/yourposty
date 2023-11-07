@@ -10,13 +10,25 @@
         maxlength="{{ $maxInputLength }}"
         oninput="lengthCounterHandler(event, 'counter_{{ $model }}', {{ $maxInputLength }}, '{{ $additionalText }}')"
     >
-    <span id="counter_{{ $model }}" class="text-sm text-grayPrimary">
+    <span id="counter_{{ $model }}" class="text-sm messageCount">
         {{ strlen($value) }}/{{ $maxInputLength }} {{ $additionalText }}
     </span>
 
     @error('value')
     <span class="text-red-500 text-sm">{{ $message }}</span>
     @enderror
+
+    <style>
+        @media (max-width: 768px) {
+          .messageCount{
+              color: #C2C2C2;
+              font-size: 9px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 9px;
+          }
+        }
+    </style>
 </div>
 
 
