@@ -1,5 +1,5 @@
 <div class="px-4">
-    <h2 class="md:text-3xl text-1xl md:mb-8 mb-2 text-center">¿A qué sector pertenece tu empresa?</h2>
+    <h2 class="md:text-2xl text-1xl md:mb-6 mb-2 text-center">¿A qué sector pertenece tu empresa?</h2>
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <button
             class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
@@ -74,9 +74,9 @@
             </p>
         </button>
     </div>
-    <div class="mt-3">
+    <div class="mt-6">
         <livewire:text-input
-            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-bluePrimary resize"
+            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-bluePrimary resize"
             label=""
             :placeholder="'Otro'"
             :maxInputLength="50"

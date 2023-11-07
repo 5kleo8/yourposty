@@ -1,5 +1,5 @@
 <div class="px-4">
-    <h2 class="md:text-3xl text-1xl mb-2">Indica 3 servicios que ofrece tu empresa</h2>
+    <h2 class="md:text-2xl text-1xl mb-2">Indica 3 servicios que ofrece tu empresa</h2>
     <div class="flex flex-col sm:flex-row items-start sm:mt-12">
         <div class="w-full mb-3 sm:mr-3">
             <form wire:submit.prevent="formValidated">
