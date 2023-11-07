@@ -1,8 +1,15 @@
 @import "mobile.css";
-
+@import "desktop.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Gabarito', sans-serif;
+    overflow-x: hidden;
 }

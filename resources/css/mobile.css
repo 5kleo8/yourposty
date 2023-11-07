@@ -1,10 +1,11 @@
 @media (max-width: 768px) {
+
+
     body {
         font-size: 20px;
         font-style: normal;
         font-weight: 900;
         line-height: 26px;
-        overflow-x: hidden;
     }
 
     h2{

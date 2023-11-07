@@ -1,9 +1,9 @@
-<div class="px-16">
-    <h2 class="mb-2">Indica 3 servicios que ofrece tu empresa</h2>
-    <div class="flex flex-col sm:flex-row items-start sm:mt-12">
+<div class="mx-10">
+    <h2 class="mx-auto mb-3 md:mb-7 desktopTitle">Indica 3 servicios que ofrece tu empresa</h2>
+    <div class="flex flex-col sm:flex-row items-start md:mb-12">
         <div class="w-full">
             <form wire:submit.prevent="formValidated">
-                <div class="mt-2.5">
+                <div>
                     <livewire:text-input
                         :label="'Primer servicio*'"
                         :placeholder="'Escribe un servicio de tu empresa'"
@@ -13,7 +13,7 @@
                         model="service1"
                     />
                 </div>
-                <div class="mt-2.5">
+                <div>
                     <livewire:text-input
                         :label="'Segundo servicio*'"
                         :placeholder="'Escribe un servicio de tu empresa'"
@@ -23,7 +23,7 @@
                         model="service2"
                     />
                 </div>
-                <div class="mt-2.5">
+                <div>
                     <livewire:text-input
                         :label="'Tercer servicio*'"
                         :placeholder="'Escribe un servicio de tu empresa'"

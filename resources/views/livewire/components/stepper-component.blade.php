@@ -23,17 +23,17 @@
 
         @if($showImage)
             <div class="hidden md:block text-left  mt-12">
-                <img src="{{ asset('img/onboarding.svg') }}">
+                <img src="{{ asset('img/onboarding.svg') }}" class="md:h-96 md:h-80">
             </div>
         @endif
 
         @if($showImage2)
             <div class="hidden md:block text-left  mt-12 ">
-                <img src="{{ asset('img/service.svg') }}">
+                <img src="{{ asset('img/service.svg') }}" class="md:h-96 md:h-86">
             </div>
         @endif
     </div>
-    <div class="step-counter  flex items-center justify-center  px-40 my-8 md:mt-24 space-x-4">
+    <div class="step-counter  flex items-center justify-center  px-40 my-8 md:mt-12 space-x-4">
         @for($i = 0; $i < 5; $i++)
             <div class="step
             {{ $i < $currentStep ? 'bg-blue-500' : 'bg-white' }}
