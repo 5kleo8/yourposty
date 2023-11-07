@@ -1,5 +1,5 @@
-<div class="mx-10">
-    <h2 class="mx-auto mb-3 md:mb-7 desktopTitle">Indica el nombre de tu empresa y un slogan</h2>
+<div class="mx-16">
+    <h2 class="mb-3 md:mb-8">Indica el nombre de tu empresa y un slogan</h2>
     <div class="flex flex-col sm:flex-row items-start md:mb-12">
         <div class="w-full">
             <form wire:submit.prevent="formValidated">
@@ -24,7 +24,7 @@
                     />
                 </div>
             </form>
-            <div class="sm:hidden h-40 w-40 mx-auto">
+            <div class="sm:hidden h-40 w-40 mx-auto mt-2 mb-2">
                 <img src="{{ asset('img/onboarding.svg') }}">
             </div>
 

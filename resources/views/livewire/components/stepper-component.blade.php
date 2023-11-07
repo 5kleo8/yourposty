@@ -4,7 +4,7 @@
         <div>
             @if($currentStep === 0)
             <!-- Paso 1 -->
-            @livewire('landing')
+            @livewire('customer')
             @elseif($currentStep === 1)
             <!-- Paso 2 -->
             @livewire('name-slogan')

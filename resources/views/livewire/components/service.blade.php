@@ -1,5 +1,5 @@
-<div class="mx-10">
-    <h2 class="mx-auto mb-3 md:mb-7 desktopTitle">Indica 3 servicios que ofrece tu empresa</h2>
+<div class="mx-16">
+    <h2 class="mb-3 md:mb-8">Indica 3 servicios que ofrece tu empresa</h2>
     <div class="flex flex-col sm:flex-row items-start md:mb-12">
         <div class="w-full">
             <form wire:submit.prevent="formValidated">
@@ -34,7 +34,7 @@
                     />
                 </div>
             </form>
-            <div class="sm:hidden w-28 h-32 mx-auto">
+            <div class="sm:hidden w-28 h-32 mx-auto mt-2 mb-2">
                 <img src="{{ asset('img/service.svg') }}">
             </div>
         </div>

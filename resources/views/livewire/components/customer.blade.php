@@ -1,7 +1,7 @@
-<div class="flex flex-col items-center justify-center">
+<div class="mx-16">
     <div class="text-center mb-6">
-        <h2 class="p-4">¡Customer, vamos a crear tu cuenta!</h2>
-        <p class=" px-10 mb-2 md:pt-4 md:mb-12 desktopfonts">Elige tu perfil para empezar a utilizar la plataforma.</p>
+        <h1 class="p-4">¡Customer, vamos a crear tu cuenta!</h1>
+        <p class=" px-10 mb-2 md:pt-4 md:mb-12">Elige tu perfil para empezar a utilizar la plataforma.</p>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-14">
         <button

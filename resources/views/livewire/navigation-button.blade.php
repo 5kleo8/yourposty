@@ -2,8 +2,8 @@
     @if($showNext)
         <button
             wire:click="nextStep"
-            class="w-full bg-blackPrimary text-white font-bold py-2 px-4 rounded mb-2 sm:mb-0 sm:mr-2 flex items-center justify-center {{ $nextDisabled ? 'cursor-not-allowed opacity-50' : 'hover:bg-bluePrimary' }}">
-            <p class="text-center">Siguiente</p>
+            class="w-full bg-blackPrimary text-white  py-2 px-4 rounded mb-2 sm:mb-0 sm:mr-8 flex items-center justify-center {{ $nextDisabled ? 'cursor-not-allowed opacity-20' : 'hover:bg-bluePrimary' }}">
+            <p class="buttonDesktop buttonMobile">Siguiente</p>
             <svg class="w-6 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path
                     fill-rule="evenodd"
@@ -19,7 +19,7 @@
     @if($showPrev)
         <button
             wire:click="prevStep"
-            class="w-full bg-white text-blackPrimary border border-blackPrimary hover:border-bluePrimary font-bold py-2 px-4 rounded mb-2 sm:mb-0 sm:mr-2 sm:order-first flex items-center justify-center">
+            class="w-full bg-white text-blackPrimary border border-blackPrimary hover:border-bluePrimary  py-2 px-4 rounded mb-2 sm:mb-0 sm:mr-8 sm:order-first flex items-center justify-center">
             <svg class="w-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path
                     fill-rule="evenodd"
@@ -27,7 +27,7 @@
                     clip-rule="evenodd">
                 </path>
             </svg>
-            <p class="text-center">Volver</p>
+            <p class="buttonDesktop buttonMobile">Volver</p>
         </button>
     @endif
 

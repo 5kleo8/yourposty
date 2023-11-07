@@ -1,5 +1,5 @@
-<div class="mx-10">
-    <h2 class="pb-3 text-center desktopTitle">¿A qué sector pertenece tu empresa?</h2>
+<div class="mx-16">
+    <h2 class="mb-3.5 text-center mx-auto">¿A qué sector pertenece tu empresa?</h2>
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-3 ">
         <button
             class=" py-3 text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 w-full"
@@ -9,7 +9,7 @@
             <p class=" fonts">
                 Tiendas, comercio y bienes físicos
             </p>
-            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktoDescription ">
+            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktopfonts ">
                 Productos materiales, ropa, regalos, artículos para mascotas, lencería, droguería, etc.
             </p>
         </button>
@@ -22,7 +22,7 @@
             <p class="text-center fonts">
                 Ciencia, tecnología e ingenieria
             </p>
-            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktoDescription ">
+            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktopfonts ">
                 Productos digitales, diseño web, ecommerce, plataformas online, robótica, etc
             </p>
         </button>
@@ -34,7 +34,7 @@
             <p class="text-center fonts">
                 Construcción e industria
             </p>
-            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktoDescription ">
+            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktopfonts ">
                 Construcción, alquiler de maquinaria, obras materiales, domotica, instalaciones, etc.
             </p>
         </button>
@@ -46,7 +46,7 @@
             <p class="text-center fonts">
                 Ocio y turismo
             </p>
-            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktoDescription ">
+            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktopfonts ">
                 Restaurante, bar, spa, turismo, alojamiento, comida, agencia de viajes, etc.
             </p>
         </button>
@@ -58,7 +58,7 @@
             <p class="text-center fonts">
                 Servicios profesionales
             </p>
-            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktoDescription  ">
+            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktopfonts  ">
                 Electricidad, fontanería, transporte, abogado, publicidad, inmobiliaria, jardineria, etc.
             </p>
         </button>
@@ -70,7 +70,7 @@
             <p class="text-center fonts">
                 Medicina, salud y belleza
             </p>
-            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktoDescription ">
+            <p class=" font-normal hidden md:block text-grayPrimary md:mt-3 md:mx-5 desktopfonts ">
                 Clinica dental, clinica médica, podologia, salón de belleza, peluquería, óptica, etc.
             </p>
         </button>
@@ -86,7 +86,7 @@
             model="sector"
         />
     </div>
-    <div class="md:mb-12">
+    <div class="md:mb-12 md:mt-6">
         <livewire:navigation-button :showNext="$sector >= 5" wire:key="{{ now() }}"/>
     </div>
 </div>

@@ -1,5 +1,6 @@
 @import "mobile.css";
 @import "desktop.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,3 +14,41 @@ body {
     font-family: 'Gabarito', sans-serif;
     overflow-x: hidden;
 }
+
+h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px
+    }
+}
+
+h2 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 517.816px;
+    height: 28px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        width: 280px;
+        height: 16px;
+        text-align: center;
+    }
+}
+

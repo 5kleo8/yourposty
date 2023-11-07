@@ -26,7 +26,7 @@ trait WithFields
         }
 
         foreach ($this->fields as $field) {
-            if (!isset($this->$field) || strlen($this->$field) < 5) {
+            if (!isset($this->$field) || strlen($this->$field) < 2) {
                 return false;
             }
         }

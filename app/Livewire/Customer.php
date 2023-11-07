@@ -4,12 +4,12 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class Landing extends Component
+class Customer extends Component
 {
 
     public function render()
     {
-        return view('livewire.components.landing');
+        return view('livewire.components.customer');
     }
     public function selectOption()
     {

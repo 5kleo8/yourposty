@@ -16,7 +16,7 @@
 </head>
 <body>
 <livewire:navbar/>
-<div class="flex flex-col m-10 gap-4 items-center justify-center">
+<div class="flex flex-col md:mt-16 mt-3.5 gap-4 items-center justify-center">
     <livewire:stepper-component/>
 </div>
 <!-- otros scripts -->
