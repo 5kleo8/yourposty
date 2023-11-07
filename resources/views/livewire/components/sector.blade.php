@@ -86,7 +86,7 @@
         />
     </div>
     <div class="mt-12">
-        <livewire:navigation-button :nextDisabled="!$valid" wire:key="{{ now() }}"/>
+        <livewire:navigation-button :showNext="$sector >= 5" wire:key="{{ now() }}"/>
     </div>
 </div>
 
