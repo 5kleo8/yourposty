@@ -2,7 +2,7 @@
     <h2 class="pb-3 text-center">¿A qué sector pertenece tu empresa?</h2>
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-3">
         <button
-            class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
+            class=" py-3 text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
             wire:click="selectOption"
         >
             <img src="{{ asset('img/Perfil-10.svg') }}" class="md:w-12 md:h-12 h-7 w-7 mx-auto mt-px">
@@ -13,6 +13,7 @@
                 Productos materiales, ropa, regalos, artículos para mascotas, lencería, droguería, etc.
             </p>
         </button>
+
         <button
             class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
             wire:click="selectOption"
@@ -26,7 +27,7 @@
             </p>
         </button>
         <button
-            class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
+            class=" py-5  text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
             wire:click="selectOption"
         >
             <img src="{{ asset('img/Perfil-12.svg') }}" class="md:w-12 md:h-12 h-7 w-7 mx-auto mt-px">
@@ -38,7 +39,7 @@
             </p>
         </button>
         <button
-            class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
+            class=" py-2 text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
             wire:click="selectOption"
         >
             <img src="{{ asset('img/Perfil-14.svg') }}" class="md:w-12 md:h-12 h-7 w-7 mx-auto mt-px">
@@ -50,7 +51,7 @@
             </p>
         </button>
         <button
-            class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
+            class=" py-5 text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
             wire:click="selectOption"
         >
             <img src="{{ asset('img/Perfil-13.svg') }}" class="md:w-12 md:h-12 h-7 w-7 mx-auto mt-px">
@@ -62,7 +63,7 @@
             </p>
         </button>
         <button
-            class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
+            class=" py-2  text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
             wire:click="selectOption"
         >
             <img src="{{ asset('img/Perfil-15.svg') }}" class="md:w-12 md:h-12 h-7 w-7 mx-auto mt-px">

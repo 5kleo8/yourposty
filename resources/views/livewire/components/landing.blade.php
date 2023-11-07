@@ -3,7 +3,7 @@
         <h2 class="p-4">¡Customer, vamos a crear tu cuenta!</h2>
         <p class=" px-10 mb-2">Elige tu perfil para empezar a utilizar la plataforma.</p>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14">
         <button
             class="px-4 py-6 text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg sm:whitespace-normal whitespace-nowrap flex flex-col items-center"
             wire:click="selectOption">
