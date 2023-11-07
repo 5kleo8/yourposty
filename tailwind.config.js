@@ -11,7 +11,7 @@ export default {
                 bluePrimary: '#00aae3',
                 grayPrimary: '#656565',
                 graySecondary: '#e9e9e9',
-                blackPrimary: '#232323'
+                blackPrimary: '#000000'
             },
         },
     },

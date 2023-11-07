@@ -1,6 +1,6 @@
-<div class="p-6 sm:p-6">
-    <h2 class="font-bold text-2xl mt-6">Indica el nombre de tu empresa y un slogan</h2>
-    <div class="flex flex-col sm:flex-row items-start mt-6">
+<div class="px-6">
+    <h2 class="md:text-3xl mb-8">Indica el nombre de tu empresa y un slogan</h2>
+    <div class="flex flex-col sm:flex-row items-start sm:mt-12">
         <div class="w-full mb-6 sm:mr-6">
             <form wire:submit.prevent="formValidated">
                 <div class="mb-6">
@@ -24,15 +24,25 @@
                     />
                 </div>
             </form>
-            <div class=" text-left lg:hidden sm:hidden">
+            <div class="sm:hidden w-1/2 mx-auto">
                 <img src="{{ asset('img/onboarding.svg') }}">
             </div>
+
         </div>
     </div>
-    <div class="mt-12">
+    <div>
         <livewire:navigation-button :nextDisabled="!$valid" wire:key="{{ now() }}"/>
     </div>
-
+    <div class="hidden lg:hidden w-4/2 mx-auto mt-12">
+        <img src="{{ asset('img/onboarding.svg') }}">
+    </div>
+    <style>
+        @media (width: 744px) and (height: 1133px) {
+            .lg\:hidden {
+                display: block;
+            }
+        }
+    </style>
 </div>
 
 

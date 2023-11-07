@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center pa-12 sm:p-12">
+<div>
     <div wire:key="step{{ $currentStep }}"
          class="animate__animated animate__fadeIn flex flex-col sm:flex-row">
         <div>
@@ -22,18 +22,18 @@
         </div>
 
         @if($showImage)
-            <div class="hidden sm:block text-left  mt-12">
+            <div class="hidden md:block text-left  mt-12">
                 <img src="{{ asset('img/onboarding.svg') }}">
             </div>
         @endif
 
         @if($showImage2)
-            <div class="hidden sm:block text-left  mt-12 ">
+            <div class="hidden md:block text-left  mt-12 ">
                 <img src="{{ asset('img/service.svg') }}">
             </div>
         @endif
     </div>
-    <div class="step-counter mb-4 flex items-center justify-center mt-12 space-x-4">
+    <div class="step-counter  flex items-center justify-center  mt-12 md:mt-24 space-x-4">
         @for($i = 0; $i < 5; $i++)
             <div class="step
             {{ $i < $currentStep ? 'bg-blue-500' : 'bg-white' }}
@@ -49,8 +49,8 @@
         }
 
         .step {
-            width: 10px;
-            height: 10px;
+            width: 8px;
+            height: 8px;
             background-color: rgba(171, 171, 171, 0.77);
             border-radius: 50%;
             margin-right: 10px;
@@ -62,8 +62,8 @@
         }
 
         .step.active {
-            width: 15px;
-            height: 15px;
+            width: 10px;
+            height: 10px;
             opacity: 1;
             background-color: rgba(35, 35, 35, 70%);
         }

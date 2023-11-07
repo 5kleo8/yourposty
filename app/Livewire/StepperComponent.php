@@ -8,7 +8,7 @@ use Livewire\Component;
 class StepperComponent extends Component
 {
     public $steps = ['Paso 1', 'Paso 2', 'Paso 3', "Paso 4", "Paso 5"];
-    public $currentStep = 0;
+    public $currentStep = 4;
     protected $listeners = [
         'incrementStep' => 'incrementStep',
         'nameSloganValidated' => 'validateNameSlogan'
