@@ -1,15 +1,15 @@
 <div class="px-4">
-    <h2 class="md:text-3xl text-1xl mb-2 text-center">¿A qué sector pertenece tu empresa?</h2>
+    <h2 class="md:text-3xl text-1xl md:mb-8 mb-2 text-center">¿A qué sector pertenece tu empresa?</h2>
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <button
             class="text-center border-2 border-gray-300 hover:border-blackPrimary focus:outline-none focus:border-bluePrimary transition duration-300 rounded-lg max-w-xs mx-auto  mb-1 p-1 w-full"
             wire:click="selectOption"
         >
             <img src="{{ asset('img/Perfil-10.svg') }}" class="w-12 h-12 mx-auto mb-2">
-            <p class="text-sm font-normal">
+            <p class="text-sm font-normal ">
                 Tiendas, comercio y bienes físicos
             </p>
-            <p class="text-sm font-normal hidden md:block">
+            <p class="text-sm font-normal hidden md:block text-grayPrimary">
                 Productos materiales, ropa, regalos, artículos para mascotas, lencería, droguería, etc.
             </p>
         </button>
@@ -21,7 +21,7 @@
             <p class="text-center font-normal">
                 Ciencia, tecnología e ingenieria
             </p>
-            <p class="text-sm font-normal hidden md:block">
+            <p class="text-sm font-normal hidden md:block text-grayPrimary">
                 Productos digitales, diseño web, ecommerce, plataformas online, robótica, etc
             </p>
         </button>
@@ -33,7 +33,7 @@
             <p class="text-center font-normal">
                 Construcción e industria
             </p>
-            <p class="text-sm font-normal hidden md:block">
+            <p class="text-sm font-normal hidden md:block text-grayPrimary">
                 Construcción, alquiler de maquinaria, obras materiales, domotica, instalaciones, etc.
             </p>
         </button>
@@ -45,7 +45,7 @@
             <p class="text-center font-normal">
                 Ocio y turismo
             </p>
-            <p class="text-sm font-normal hidden md:block">
+            <p class="text-sm font-normal hidden md:block text-grayPrimary">
                 Restaurante, bar, spa, turismo, alojamiento, comida, agencia de viajes, etc.
             </p>
         </button>
@@ -57,7 +57,7 @@
             <p class="text-center font-normal">
                 Servicios profesionales
             </p>
-            <p class="text-sm font-normal hidden md:block">
+            <p class="text-sm font-normal hidden md:block text-grayPrimary">
                 Electricidad, fontanería, transporte, abogado, publicidad, inmobiliaria, jardineria, etc.
             </p>
         </button>
@@ -69,7 +69,7 @@
             <p class="text-center font-normal ">
                 Medicina, salud y belleza
             </p>
-            <p class="text-sm font-normal hidden md:block">
+            <p class="text-sm font-normal hidden md:block text-grayPrimary">
                 Clinica dental, clinica médica, podologia, salón de belleza, peluquería, óptica, etc.
             </p>
         </button>
