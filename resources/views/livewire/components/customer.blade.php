@@ -1,4 +1,4 @@
-<div class="mx-16">
+<div class="mx-8 sm:mx-16">
     <div class="text-center mb-6">
         <h1 class="p-4">¡Customer, vamos a crear tu cuenta!</h1>
         <p class=" px-10 mb-2 md:pt-4 md:mb-12">Elige tu perfil para empezar a utilizar la plataforma.</p>

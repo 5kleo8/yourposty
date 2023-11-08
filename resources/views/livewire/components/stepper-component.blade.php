@@ -3,20 +3,20 @@
          class="animate__animated animate__fadeIn flex flex-col sm:flex-row">
         <div>
             @if($currentStep === 0)
-            <!-- Paso 1 -->
-            @livewire('customer')
+                <!-- Paso 1 -->
+                @livewire('customer')
             @elseif($currentStep === 1)
-            <!-- Paso 2 -->
-            @livewire('name-slogan')
+                <!-- Paso 2 -->
+                @livewire('name-slogan')
             @elseif($currentStep === 2)
-            <!-- Paso 3 -->
-            @livewire('service')
+                <!-- Paso 3 -->
+                @livewire('service')
             @elseif($currentStep === 3)
-            <!-- Paso 4 -->
-            @livewire('sector')
+                <!-- Paso 4 -->
+                @livewire('sector')
             @elseif($currentStep === 4)
-            <!-- Paso 5 -->
-            @livewire('how-met')
+                <!-- Paso 5 -->
+                @livewire('how-met')
             @elseif($currentStep === 5)
             @endif
         </div>
@@ -33,7 +33,7 @@
             </div>
         @endif
     </div>
-    <div class="step-counter  flex items-center justify-center  px-40 my-8 md:mt-12 space-x-4">
+    <div class="step-counter flex items-center justify-center px-4 my-8 md:mt-12 space-x-4">
         @for($i = 0; $i < 5; $i++)
             <div class="step
             {{ $i < $currentStep ? 'bg-blue-500' : 'bg-white' }}

@@ -1,5 +1,5 @@
-<div class="mx-16">
-    <h2 class="mb-3.5 text-center mx-auto">Para terminar, ¿Cómo nos conociste?</h2>
+<div class="mx-8 sm:mx-16">
+    <h2 class="mb-7 text-center mx-auto">Para terminar, ¿Cómo nos conociste?</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
         <div
             class="px-12 py-2 md:py-8 flex flex-col items-center justify-center border border-gray-300 hover:border-bluePrimary transition duration-300 rounded-lg">

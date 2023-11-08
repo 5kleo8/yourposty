@@ -1,4 +1,4 @@
-<div class="mx-16">
+<div class="mx-8 sm:mx-16">
     <h2 class="mb-3 md:mb-8">Indica el nombre de tu empresa y un slogan</h2>
     <div class="flex flex-col sm:flex-row items-start md:mb-12">
         <div class="w-full">

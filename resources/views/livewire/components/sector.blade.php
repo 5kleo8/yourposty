@@ -1,4 +1,4 @@
-<div class="mx-16">
+<div class="mx-8 sm:mx-16">
     <h2 class="mb-3.5 text-center mx-auto">¿A qué sector pertenece tu empresa?</h2>
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-3 ">
         <button
