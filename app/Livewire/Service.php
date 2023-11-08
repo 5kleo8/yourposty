@@ -9,7 +9,7 @@ class Service extends Component
 {
 
     use WithFields;
-    protected array $fields = ['service1', 'service2', 'service3'];
+    protected array $fields = ['service1'];
     protected $listeners = ['fieldUpdated'];
     public string $service1 = '';
     public string $service2 = '';
