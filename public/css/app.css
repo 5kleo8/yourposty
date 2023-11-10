@@ -139,7 +139,7 @@
     line-height: normal
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
     .cardMobile{
         height: 584px;
     }

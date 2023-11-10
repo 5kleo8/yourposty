@@ -3,8 +3,8 @@
 @livewireStyles
 
 
-<div class="flex w-full items-center justify-center md:p-8 rounded-3xl">
-    <div class="border flex flex-row shadow-2xl bg-white rounded-3xl">
+<div class="flex w-full items-center justify-center p-4 md:p-8 rounded-3xl">
+    <div class="w-full border flex flex-row shadow-2xl bg-white rounded-3xl">
         <div class="cardMobile w-full lg:w-2/3">
             <livewire:new-post/>
         </div>
