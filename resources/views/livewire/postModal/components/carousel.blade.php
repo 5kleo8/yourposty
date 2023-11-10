@@ -1,6 +1,4 @@
-<div class="flex items-center mb-2 sm:mb-0 sm:mr-4">
-
-
+<div class="flex items-center mb-2 sm:mb-0 sm:mr-4 overflow-x-hidden">
     <div class="carusel-container">
         <div class="carusel">
             <button id="scroll-left" class=" scroll-button scroll-button-left hidden w-9 h-9   rounded-full opacity-95">

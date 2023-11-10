@@ -21,3 +21,7 @@ Route::get('/modal', function () {
     return view('livewire.postModal.modal');
 });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

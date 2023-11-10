@@ -11,7 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300&family=Fira+Code:wght@300&family=Gabarito&display=swap"
         rel="stylesheet">
-    @vite('resources/js/app.js')
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <script src="{{ mix('js/app.js') }}" defer></script>
     @livewireStyles
 </head>
 <body>

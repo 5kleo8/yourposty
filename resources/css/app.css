@@ -1,6 +1,7 @@
 @import "onboarding/mobile.css";
 @import "onboarding/desktop.css";
 @import "postModal/desktop.css";
+@import "postModal/mobile.css";
 
 @tailwind base;
 @tailwind components;

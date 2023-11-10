@@ -1,7 +1,7 @@
-import './bootstrap';
-import './helpers.js';
-import './../css/app.css';
-import {Livewire} from '../../vendor/livewire/livewire/dist/livewire.esm';
+require('./bootstrap');
+require('./helpers.js');
+const { Livewire } = require('../../vendor/livewire/livewire/dist/livewire.esm');
+
 
 
 Livewire.start()
