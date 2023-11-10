@@ -3,12 +3,12 @@
 @livewireStyles
 
 
-<div class="flex items-center justify-center md:m-8 rounded-3xl">
+<div class="flex w-full items-center justify-center md:p-8 rounded-3xl">
     <div class="border flex flex-row shadow-2xl bg-white rounded-3xl">
-        <div class="cardMobile">
+        <div class="cardMobile w-full lg:w-2/3">
             <livewire:new-post/>
         </div>
-        <div class="hidden lg:flex px-20 rounded-r-3xl" style="background: #d3d3d3;">
+        <div class="hidden lg:flex w-1/3 px-6 rounded-r-3xl" style="background: #d3d3d3;">
             <livewire:preview/>
         </div>
     </div>
