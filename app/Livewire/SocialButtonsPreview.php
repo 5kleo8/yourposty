@@ -18,8 +18,9 @@ class SocialButtonsPreview extends Component
             'img/Instagram.svg',
             'img/Instagram.svg',
             'img/Instagram.svg',
+            'img/Instagram.svg',
         ];
-        for ($i = 0; $i < 5; $i++) {
+        for ($i = 0; $i < 6; $i++) {
             $this->buttons[] = [
                 'image' => $images[$i],
                 'alt' => 'Imagen ' . ($i + 1)

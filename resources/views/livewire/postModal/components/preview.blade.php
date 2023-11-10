@@ -9,8 +9,8 @@
             <div class="flex items-center p-4 border-b">
                 <img src="https://via.placeholder.com/40" alt="Avatar" class="w-8 h-8 rounded-full mr-2">
                 <div class="flex flex-col">
-                    <span class="font-semibold">Nombre del Usuario</span>
-                    <span class="text-gray-500 text-sm">Hace 2 horas</span>
+                    <span class="font-semibold">Taperia enboca</span>
+                    <span class="text-gray-500 text-sm">1h</span>
                 </div>
             </div>
 
