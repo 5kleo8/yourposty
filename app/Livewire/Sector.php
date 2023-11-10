@@ -25,6 +25,6 @@ class Sector extends Component
 
     public function render()
     {
-        return view('livewire.components.sector');
+        return view('livewire.onboarding.components.sector');
     }
 }

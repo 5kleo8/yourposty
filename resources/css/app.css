@@ -1,5 +1,6 @@
-@import "mobile.css";
-@import "desktop.css";
+@import "onboarding/mobile.css";
+@import "onboarding/desktop.css";
+@import "postModal/desktop.css";
 
 @tailwind base;
 @tailwind components;
@@ -8,10 +9,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'DM Sans', 'Fira Code', monospace;
+    font-family: 'DM Sans', sans-serif;
     overflow-x: hidden;
 }
 
@@ -34,7 +32,7 @@ h1 {
 h2 {
     font-size: 24px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 28px;
     width: 517.816px;
     height: 28px;

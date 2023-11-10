@@ -22,7 +22,7 @@ class NameSlogan extends Component
 
     public function render()
     {
-        return view('livewire.components.name-slogan');
+        return view('livewire.onboarding.components.name-slogan');
     }
 
 

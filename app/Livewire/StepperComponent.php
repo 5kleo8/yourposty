@@ -38,7 +38,7 @@ class StepperComponent extends Component
     {
         $showImage1 = $this->currentStep === 1;
         $showImage2 = $this->currentStep === 2;
-        return view('livewire.components.stepper-component', ['showImage' => $showImage1, "showImage2" => $showImage2]);
+        return view('livewire.onboarding.components.stepper-component', ['showImage' => $showImage1, "showImage2" => $showImage2]);
     }
 }
 

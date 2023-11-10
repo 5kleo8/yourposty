@@ -20,6 +20,7 @@
     <livewire:stepper-component/>
 </div>
 <!-- otros scripts -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 @livewireScriptConfig
 </body>
 </html>

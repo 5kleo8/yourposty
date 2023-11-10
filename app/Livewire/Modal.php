@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class HowMet extends Component
+class Modal extends Component
 {
     public function render()
     {
-        return view('livewire.onboarding.components.how-met');
+        return view('livewire.postModal.modal');
     }
 }

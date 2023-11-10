@@ -9,7 +9,7 @@ class Customer extends Component
 
     public function render()
     {
-        return view('livewire.components.customer');
+        return view('livewire.onboarding.components.customer');
     }
     public function selectOption()
     {

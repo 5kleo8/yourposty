@@ -21,6 +21,6 @@ class Service extends Component
     }
     public function render()
     {
-        return view('livewire.components.service');
+        return view('livewire.onboarding.components.service');
     }
 }

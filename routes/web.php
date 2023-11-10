@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/modal', function () {
+    return view('livewire.postModal.modal');
+});
+

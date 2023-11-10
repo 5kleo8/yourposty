@@ -1,0 +1,63 @@
+.textarea {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    resize: none;
+    height: 310px;
+    width: 830px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.carusel-container {
+    width: 712px;
+    height: 117px;
+    position: relative;
+}
+
+.scroll-button {
+    font-size: 15px;
+    color: #4F2AC1;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    box-shadow: 0 4px 22px 2px rgba(0, 0, 0, 50.5);
+}
+
+.scroll-button-left {
+    left: 10px; /* Ajusta la posición desde el lado izquierdo */
+}
+
+.scroll-button-right {
+    right: -15px; /* Ajusta la posición desde el lado derecho */
+}
+
+.carusel {
+    width: 712px;
+    height: 117px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden ;
+}
+
+.element {
+    flex: 0 0 auto;
+    padding: 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttonTextModal{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
